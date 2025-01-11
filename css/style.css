@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ea8500;
+    border: 1px solid #000000;
+}
+.navegacao {
+    display: flex;
+}
+.atalho {
+    flex: 1 1 300px; /* Flex-grow, flex-shrink, flex-basis */
+    margin: 10px 30px 10px 30px;
+    color: #000000;
+    font-size: 25px;
+}
+@media (max-width: 600px) {
+    .atalho {
+        flex: 1 1 100%;
+        font-size: 20px;
+    }
+}
