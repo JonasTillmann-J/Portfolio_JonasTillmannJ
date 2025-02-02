@@ -1,0 +1,29 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(/Assets/images/Imagem\ de\ fundo\ Portifolio.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.secaotxt{
+    position: absolute;
+    background-color: rgb(38, 37, 37);
+    z-index: 99;
+    width: auto;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+.txt{
+    margin: 20px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+@media (max-width: 600px) {
+}
