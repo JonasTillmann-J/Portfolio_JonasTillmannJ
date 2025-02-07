@@ -1,12 +1,15 @@
 window.addEventListener('load', function() {
     var width = window.screen.width;
     var height = window.screen.height;
-    console.log('Resolução da tela: ' + width + 'x' + height + ' - scriptExperiencia.js OK');
-});
-
+    console.log('Resolução da tela: ' + width + 'x' + height + ' - scriptSobreMim.js OK');
+})
+document.addEventListener("DOMContentLoaded", function(){
+    const link = document.querySelectorAll(".nav-link");
+}
+/*
 document.addEventListener("DOMContentLoaded", function () {
     const links = document.querySelectorAll(".nav-link");
-    const indicador = document.querySelector(".indicador");
+    const indicador = document.querySelector(".bolinha");
 
     function moveIndicador(link) {
         indicador.style.left = link.offsetLeft + "px"; 
@@ -42,4 +45,4 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         }
     });
-});
+});*/

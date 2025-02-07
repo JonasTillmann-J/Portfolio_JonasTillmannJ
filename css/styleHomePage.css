@@ -37,10 +37,9 @@ a:hover {
 }
 .bolinha {
     position: absolute;
-    bottom: -5px;
+    bottom: 5%;
     width: 10px;
     height: 10px;
     background-color: var(--amarelo);
     border-radius: 50%;
-    transition: 0.3s ease-in-out;
 }
