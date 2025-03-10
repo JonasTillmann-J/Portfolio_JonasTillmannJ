@@ -3,23 +3,26 @@ Portfolio para Recrutadores e Empresas poderem ver minhas habilidades e uma form
 Pages:
 
 HomePage
-Pagina com um resumo pequeno com os Links Principais Para as demais Paginas
+    Pagina com um resumo pequeno com os Links Principais Para as demais Paginas
 
-Sobre Mim
-Pagina que irá trazer um resumo focado em mim como pessoa minha escolaidade entra outra informações
+        Sobre Mim
+            Pagina que irá trazer um resumo focado em mim como pessoa minha escolaidade entra outra informações
 
-Contatos
-Alguns modos de contato como telefone email. instagram entre outros links
+        Contatos
+            Alguns modos de contato como telefone email. instagram entre outros links
+
+
+
 
 Experiencia
 minhas esperiencia como programador
 
-Ia
-uma tela com uma ia para responder e mostra minha ablidade em criação de IAS
+
 
 Projetos
 PRojetos que Já vis tera um link direto da experiencia e para está pagina
 
 Tela de Espera
 uma tela que só pede para ter calma ela vai ser substituida posteriormente
+
 meu link https://jonastillmann-j.github.io/Portfolio_JonasTillmannJ/

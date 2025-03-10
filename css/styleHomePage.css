@@ -1,23 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 :root{
     --amarelo:rgb(254, 193, 88);
     --cinzaclaro:rgb(50, 52, 68);
     --cinzaescuro:rgb(35, 37, 51);
     --letraspadrao:rgb(231, 233, 238);
     --letrasEscondidasCC:rgb(88, 92, 110);
+    --font: "Orbitron", serif;
 }
+/*
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+*/
 body {
-    font-family: monospace;
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
     background-color:var(--cinzaclaro);
 }
-.secaonavbar{
+.SectionNavbar{
+    position: relative;
     background: transparent;
     width: 100%;
     height: 60px;
-    
+    margin: 0px 0px 0% 0px; 
 }
-nav {
+.SectionNavbar nav {
     position: relative;
     display: flex;
     justify-content: center;
@@ -25,21 +36,73 @@ nav {
     height: 60px;
     gap: 20px;
 }
-nav a {
+.SectionNavbar nav a {
     position: relative;
     color: var(--letrasEscondidasCC);
     text-decoration: none;
-    font-size: 20px;
     padding: 10px;
+    left: 32%;
+    top: 25%;
+    font-family: "Orbitron", serif;
+    font-size: 23px;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    transition: color 0.7s ease-in-out;
 }
-a:hover {
+.SectionNavbar nav a:hover {
     color: var(--amarelo);
 }
-.bolinha {
-    position: absolute;
-    bottom: 5%;
-    width: 10px;
-    height: 10px;
-    background-color: var(--amarelo);
-    border-radius: 50%;
+.InformationPanel{
+    position: relative;
+    display: block;
+    width: 99%;
+    height: 80%;
+    left: 0.5%;
+    background-color: violet;
+    color: var(--letraspadrao);
+    font-family: "Orbitron", serif;
+    font-size: 30px;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+}
+.InformationPanel .name{
+    position: relative;
+    display: block;
+    font-size: 50px;
+    margin: 0px 0px 0px 0px;
+}
+.AboutMePanel{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: block;
+    width: 99%;
+    height: 80%;
+    left: 0.5%;
+    background-color: violet;
+    color: var(--letraspadrao);
+    font-family: "Orbitron", serif;
+    font-size: 30px;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+}
+.footer{
+    display: block;
+    position: fixed;
+    top: 94%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 100%;
+    background-color: var(--cinzaescuro);
+    color: var(--letraspadrao);
+    font-family: "Orbitron", serif;
+    font-size: 15px;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
 }
